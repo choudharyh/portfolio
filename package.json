@@ -1,14 +1,16 @@
 {
   "type": "module",
-    "name": "portfolio",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.mjs",
-      "scripts": {
-      "start": "node index.mjs"
-    }, 
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio website built with Express and EJS",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",  // for local development
+    "build": "echo 'No build step required'",  // Placeholder for Netlify; adjust if you have a build step
+    "serve": "node index.mjs"  // Add a serve script if needed for deployment
+  },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
@@ -17,5 +19,8 @@
     "node-fetch": "^3.3.2",
     "path": "^0.12.7",
     "url": "^0.11.4"
+  },
+  "engines": {
+    "node": "v19.9.0."
   }
 }
