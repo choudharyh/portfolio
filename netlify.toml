@@ -1,0 +1,6 @@
+[build]
+  command = "npm install && npm run build"  # Command to install dependencies and build your project
+  publish = "public"  # Directory where the static files are located after the build
+
+[functions]
+  directory = "netlify/functions"  # Directory where your Netlify Functions are located (if any)
