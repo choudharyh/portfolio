@@ -5,9 +5,9 @@
   "description": "Portfolio website built with Express and EJS",
   "main": "index.mjs",
   "scripts": {
-    "start": "node index.mjs",  // for local development
-    "build": "echo 'No build step required'",  // Placeholder for Netlify; adjust if you have a build step
-    "serve": "node index.mjs"  // Add a serve script if needed for deployment
+    "start": "node index.mjs",  
+    "build": "echo 'No build step required'",  
+    "serve": "node index.mjs" 
   },
   "keywords": [],
   "author": "Your Name",
