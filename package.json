@@ -5,10 +5,9 @@
   "description": "Portfolio website built with Express and EJS",
   "main": "index.mjs",
   "scripts": {
-  "start": "node index.mjs",
-  "build": "echo 'No build step required'",
-  "serve": "node index.mjs"
-},
+    "start": "node index.mjs",
+    "build": "echo 'No build step required'"
+  },
   "keywords": [],
   "author": "Your Name",
   "license": "ISC",
