@@ -5,11 +5,10 @@
   "description": "Portfolio website built with Express and EJS",
   "main": "index.mjs",
   "scripts": {
-    "start": "pm2 start index.mjs",  
+    "start": "node index.mjs",  
     "build": "echo 'No build step required'",  
-    "serve": "pm2 start index.mjs" 
+    "serve": "node index.mjs" 
   },
-  
   "keywords": [],
   "author": "Your Name",
   "license": "ISC",
@@ -20,7 +19,7 @@
     "node-fetch": "^3.3.2",
     "path": "^0.12.7",
     "url": "^0.11.4",
-    "pm2": "^5.2.0"   
+    "pm2": "^5.2.0"
   },
   "engines": {
     "node": "19.9.0"
