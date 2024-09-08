@@ -20,7 +20,7 @@
     "node-fetch": "^3.3.2",
     "path": "^0.12.7",
     "url": "^0.11.4",
-    "pm2": "^5.2.0"   // Add pm2 as a dependency
+    "pm2": "^5.2.0"   
   },
   "engines": {
     "node": "19.9.0"
